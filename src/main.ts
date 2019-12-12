@@ -33,5 +33,5 @@ app.get('/qrcode', async (req, resp) => {
 });
 
 const server = app.listen(3000, '0.0.0.0', () => {
-  pino.logger.info('无头浏览器海报渲染服务已启动, 地址是：http://0.0.0.0:3000');
+  pino.logger.info('二维码生成服务已启动, 地址是：http://0.0.0.0:3000');
 });
