@@ -20,7 +20,7 @@
   "author": "noodles",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-pino-logger": "^4.0.0",
     "qrcode": "^1.4.4"
   },
